@@ -47,5 +47,4 @@ alias \
 	cls='clear' \
 	ls='ls --color=auto' \
 	alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
-
-
+	alias z='vim ~/.config/zsh/.zshrc' \
