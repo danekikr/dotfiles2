@@ -85,13 +85,13 @@ keys = [
     # Unsplit = 1 window displayed, like Max layout, but still with
     # multiple stack panes
     Key([mod, "shift"], "Return", lazy.layout.toggle_split()),
-    Key([mod], "Return", lazy.spawn("urxvt")),
+    Key([mod], "Return", lazy.spawn("st")),
     
     Key([mod], "w", lazy.spawn("brave")),
     
-    Key([mod], "e", lazy.spawn("urxvt -e neomutt")),
+    Key([mod], "e", lazy.spawn("st -e neomutt")),
     
-    Key([mod], "n", lazy.spawn("urxvt -e newsboat")),
+    Key([mod], "n", lazy.spawn("st -e newsboat")),
     
     Key([mod, "shift"], "r", lazy.spawn("urxvt -e ranger")),
     
